@@ -201,13 +201,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292576856}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7066177, w: 0.7075955}
-  m_LocalPosition: {x: -3.27, y: 0.11, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9208435, w: 0.38993227}
+  m_LocalPosition: {x: -5.66, y: 0, z: 0}
   m_LocalScale: {x: 0.6276, y: 0.6808, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.921}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -134.099}
 --- !u!114 &292576859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875c0f4aea0514a33b94e641bca83d6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  steerSpeed: 250
+  moveSpeed: 12
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
